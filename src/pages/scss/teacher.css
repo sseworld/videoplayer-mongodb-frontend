@@ -1,0 +1,175 @@
+.theme-light .teachers .search-tutor{
+    margin-bottom: 3rem;
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   padding: 1.5rem 2rem;
+   background-color: #fff;
+   border-radius: .5rem;
+}
+
+.theme-light .teachers .search-tutor input{
+    width: 100%;
+   font-size: 1.8rem;
+   color: #2c3e50;
+   background: none;
+}
+
+.theme-light .teachers .search-tutor button{
+   font-size: 2rem;
+   color: #2c3e50;
+   background: none;
+   cursor: pointer;
+}
+
+.theme-light .teachers .search-tutor button:hover{
+    color: #8e44ad;
+}
+
+.theme-light .teachers .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media (max-widh: 450px){
+    .theme-light .teachers .box-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+.theme-light .teachers .box-container .box{
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.theme-light .teachers .box-container .box .tutor{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.theme-light .teachers .box-container .box .tutor img{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.theme-light .teachers .box-container .box .tutor h3{
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.theme-light .teachers .box-container .box .tutor span{
+    color: #8e44ad;
+    font-size: 1.5rem;
+}
+
+.theme-light .teachers .box-container .box p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: #888;
+}
+
+.theme-light .teachers .box-container .box p span{
+    color: #8e44ad;
+}
+
+
+/* Dark Mode  */
+.theme-dark .teachers .search-tutor{
+    margin-bottom: 3rem;
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   padding: 1.5rem 2rem;
+   background-color: #222;
+   border-radius: .5rem;
+}
+
+.theme-dark .teachers .search-tutor input{
+    width: 100%;
+   font-size: 1.8rem;
+   color: #fff;
+   background: none;
+}
+
+.theme-dark .teachers .search-tutor button{
+   font-size: 2rem;
+   color: #fff;
+   background: none;
+   cursor: pointer;
+}
+
+.theme-dark .teachers .search-tutor button:hover{
+    color: #8e44ad;
+}
+
+.theme-dark .teachers .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media (max-widh: 450px){
+    .theme-dark .teachers .box-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+.theme-dark .teachers .box-container .box{
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: #222;
+}
+
+.theme-dark .teachers .box-container .box .tutor{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.theme-dark .teachers .box-container .box .tutor img{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.theme-dark .teachers .box-container .box .tutor h3{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.theme-dark .teachers .box-container .box .tutor span{
+    color: #8e44ad;
+    font-size: 1.5rem;
+}
+
+.theme-dark .teachers .box-container .box p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: #aaa;
+}
+
+.theme-dark .teachers .box-container .box p span{
+    color: #8e44ad;
+}
+
+.theme-dark .teachers .box-container .box .sse-btn{
+    background-color: #8e44ad;
+}
+
+.theme-dark .teachers .box-container .box .sse-btn:hover{
+    background-color: #fff;
+}

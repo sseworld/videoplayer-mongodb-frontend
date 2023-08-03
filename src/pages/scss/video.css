@@ -1,0 +1,116 @@
+.theme-light .videos-container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.theme-light .videos-container .box-container .box {
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.theme-light .videos-container .box-container .box img {
+  height: 20rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.theme-light .videos-container .box-container .box i {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  right: 2rem;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  display: none;
+}
+
+.theme-light .videos-container .box-container .box:hover i {
+  display: flex;
+}
+
+.theme-light .videos-container .box-container .box h3 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-top: 1rem;
+}
+
+.theme-light .videos-container .box-container .box:hover h3 {
+  color: #8e44ad;
+}
+
+@media (max-width: 450px) {
+  .theme-light .videos-container .box-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Dark Mode */
+.theme-dark .videos-container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.theme-dark .videos-container .box-container .box {
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: #222;
+}
+
+.theme-dark .videos-container .box-container .box img {
+  height: 20rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.theme-dark .videos-container .box-container .box i {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  right: 2rem;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  display: none;
+}
+
+.theme-dark .videos-container .box-container .box:hover i {
+  display: flex;
+}
+
+.theme-dark .videos-container .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.theme-dark .videos-container .box-container .box:hover h3 {
+  color: #8e44ad;
+}
+
+@media (max-width: 450px) {
+  .theme-dark .videos-container .box-container {
+    grid-template-columns: 1fr;
+  }
+}

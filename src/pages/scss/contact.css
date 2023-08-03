@@ -1,0 +1,228 @@
+.theme-light .contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.theme-light .contact .row .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 50rem;
+  flex: 1 1 50rem;
+}
+
+.theme-light .contact .row .image img {
+  height: 50rem;
+  width: 100%;
+}
+
+.theme-light .contact .row form {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+  background-color: #fff;
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.theme-light .contact .row form h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.theme-light .contact .row form p{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f94449;
+}
+
+.theme-light .contact .row form .box {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: .5rem;
+  background-color: #eee;
+  padding: 1.4rem;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.theme-light .contact .row form textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.theme-light .contact .box-container {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.theme-light .contact .box-container .box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.theme-light .contact .box-container .box i {
+  font-size: 3rem;
+  color: #8e44ad;
+  margin-bottom: 1rem;
+}
+
+.theme-light .contact .box-container .box h3 {
+  margin: 1.5rem 0;
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.theme-light .contact .box-container .box a {
+  display: block;
+  font-size: 1.7rem;
+  color: #888;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+.theme-light .contact .box-container .box a:hover {
+  text-decoration: underline;
+  color: #8e44ad;
+}
+
+
+/*Dark Theme */
+.theme-dark .contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.theme-dark .contact .row .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 50rem;
+  flex: 1 1 50rem;
+}
+
+.theme-dark .contact .row .image img {
+  height: 50rem;
+  width: 100%;
+}
+
+.theme-dark .contact .row form {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+  flex: 1 1 30rem;
+  background-color: #222;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.theme-dark .contact .row form h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.theme-dark .contact .row form p{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.theme-dark .contact .row form .sse-btn{
+  background-color: #8e44ad;
+}
+
+.theme-dark .contact .row form .sse-btn:hover{
+  background-color: #fff;
+  color: #222;
+  transition: .3s ease-in-out;
+}
+
+.theme-dark .contact .row form .box {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background-color: #333;
+  padding: 1.4rem;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.theme-dark .contact .row form textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.theme-dark .contact .box-container {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.theme-dark .contact .box-container .box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: #222;
+}
+
+.theme-dark .contact .box-container .box i {
+  font-size: 3rem;
+  color: #8e44ad;
+  margin-bottom: 1rem;
+}
+
+.theme-dark .contact .box-container .box h3 {
+  margin: 1.5rem 0;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.theme-dark .contact .box-container .box a {
+  display: block;
+  font-size: 1.7rem;
+  color: #aaa;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+.theme-dark .contact .box-container .box a:hover {
+  text-decoration: underline;
+  color: #8e44ad;
+}
+/*# sourceMappingURL=contact.css.map */

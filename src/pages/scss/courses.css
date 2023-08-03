@@ -1,0 +1,128 @@
+.theme-light .courses .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.theme-light .courses .box-container .box {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.theme-light .courses .box-container .box .tutor {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.theme-light .courses .box-container .box .tutor img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.theme-light .courses .box-container .box .tutor h3{
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 0.2rem;
+}
+
+.theme-light .courses .box-container .box .tutor span{
+    font-size: 1.5rem;
+    color: #888;
+}
+
+.theme-light .courses .box-container .box .thumb{
+  width: 100%;
+  border-radius: .5rem;
+   height: 20rem;
+   object-fit: cover;
+   margin-bottom: .3rem;
+}
+
+.theme-light .courses .box-container .box .title{
+  font-size: 2rem;
+   color: #2c3e50;
+   margin-top: .5rem;
+   padding: .5rem 0;
+}
+
+.theme-light .courses .more-btn{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Dark Mode  */
+.theme-dark .courses .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.theme-dark .courses .box-container .box {
+  border-radius: 0.5rem;
+  background-color: #222;
+  padding: 2rem;
+}
+
+.theme-dark .courses .box-container .box .tutor {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.theme-dark .courses .box-container .box .tutor img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.theme-dark .courses .box-container .box .tutor h3{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 0.2rem;
+}
+
+.theme-dark .courses .box-container .box .tutor span{
+    font-size: 1.5rem;
+    color: #aaa;
+}
+
+.theme-dark .courses .box-container .box .thumb{
+  width: 100%;
+  border-radius: .5rem;
+   height: 20rem;
+   object-fit: cover;
+   margin-bottom: .3rem;
+}
+
+.theme-dark .courses .box-container .box .title{
+  font-size: 2rem;
+   color: #fff;
+   margin-top: .5rem;
+   padding: .5rem 0;
+}
+
+.theme-dark .courses .more-btn{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.theme-dark .courses .box-container .box .sse-btn{
+  background-color: #8e44ad;
+}
+
+.theme-dark .courses .box-container .box .sse-btn:hover{
+  background-color: #fff;
+}
