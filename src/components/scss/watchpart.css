@@ -1,0 +1,210 @@
+.theme-light .watch-video .video-details {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.theme-light .watch-video .video-details .video {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #000;
+  height: 50rem;
+}
+
+.theme-light .watch-video .video-details .title {
+  font-size: 2rem;
+  color: #2c3e50;
+  padding: 1.5rem 0;
+}
+
+.theme-light .watch-video .video-details .info {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.theme-light .watch-video .video-details .info p {
+  font-size: 1.6rem;
+}
+
+.theme-light .watch-video .video-details .info p i {
+  margin-right: 1rem;
+  color: #8e44ad;
+}
+
+.theme-light .watch-video .video-details .info p span {
+  color: #888;
+}
+
+.theme-light .watch-video .video-details .tutor {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.theme-light .watch-video .video-details .tutor img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.theme-light .watch-video .video-details .tutor h3 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.2rem;
+}
+
+.theme-light .watch-video .video-details .tutor span {
+  color: #888;
+  font-size: 1.5rem;
+}
+
+.theme-light .watch-video .video-details .flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.theme-light .watch-video .video-details .flex a {
+  margin-top: 0;
+}
+
+.theme-light .watch-video .video-details .flex button {
+  background-color: #eee;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+.theme-light .watch-video .video-details .flex button i {
+  color: #2c3e50;
+  margin-right: 1rem;
+}
+
+.theme-light .watch-video .video-details .flex button span {
+  color: #888;
+}
+
+.theme-light .watch-video .video-details .flex button:hover {
+  background-color: #2c3e50;
+}
+
+.theme-light .watch-video .video-details .flex button:hover i {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.theme-light .watch-video .video-details .flex button:hover span {
+  color: #fff;
+}
+
+/* Dark Mode */
+.theme-dark .watch-video .video-details {
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.theme-dark .watch-video .video-details .video {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #000;
+  height: 50rem;
+}
+
+.theme-dark .watch-video .video-details .title {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+.theme-dark .watch-video .video-details .info {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .watch-video .video-details .info p {
+  font-size: 1.6rem;
+}
+
+.theme-dark .watch-video .video-details .info p i {
+  margin-right: 1rem;
+  color: #8e44ad;
+}
+
+.theme-dark .watch-video .video-details .info p span {
+  color: #aaa;
+}
+
+.theme-dark .watch-video .video-details .tutor {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.theme-dark .watch-video .video-details .tutor img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.theme-dark .watch-video .video-details .tutor h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.theme-dark .watch-video .video-details .tutor span {
+  color: #aaa;
+  font-size: 1.5rem;
+}
+
+.theme-dark .watch-video .video-details .flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.theme-dark .watch-video .video-details .flex a {
+  margin-top: 0;
+}
+
+.theme-dark .watch-video .video-details .flex button {
+  background-color: #333;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+.theme-dark .watch-video .video-details .flex button i {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.theme-dark .watch-video .video-details .flex button span {
+  color: #aaa;
+}
+
+.theme-dark .watch-video .video-details .flex button:hover {
+  background-color: #fff;
+}
+
+.theme-dark .watch-video .video-details .flex button:hover i {
+  color: #222;
+  margin-right: 1rem;
+}
+
+.theme-dark .watch-video .video-details .flex button:hover span {
+  color: #222;
+}

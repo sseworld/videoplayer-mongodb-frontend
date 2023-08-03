@@ -1,0 +1,298 @@
+.theme-light .header {
+  background-color: #fff;
+  border-bottom: 0.1rem solid rbga(0, 0, 0, 0.2);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.theme-light .header .flex {
+  padding: 1.5rem 2rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.theme-light .header .flex .logo {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-weight: bolder;
+}
+
+.theme-light .header .flex .search-form {
+  width: 50rem;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  background-color: #eee;
+}
+
+@media (max-width: 768px) {
+  .theme-light .header .flex .search-form {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    width: auto;
+    border-top: 0.1rem solid rbga(0, 0, 0, 0.2);
+    border-bottom: 0.1rem solid rbga(0, 0, 0, 0.2);
+    background-color: #fff;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+}
+
+@media (max-width: 768px) {
+  .theme-light .header .flex .search-form.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.theme-light .header .flex .search-form input {
+  width: 100%;
+  background: none;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.theme-light .header .flex .search-form button {
+  font-size: 2rem;
+  color: #2c3e50;
+  cursor: pointer;
+  background: none;
+}
+
+.theme-light .header .flex .search-form button:hover {
+  color: #8e44ad;
+}
+
+.theme-light .header .flex .icons div {
+  font-size: 2rem;
+  color: #2c3e50;
+  border-radius: 0.5rem;
+  height: 4.5rem;
+  cursor: pointer;
+  width: 4.5rem;
+  line-height: 4.4rem;
+  background-color: #eee;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+.theme-light .header .flex .icons div:hover{
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.theme-light .header .flex .profile {
+  position: absolute;
+  top: 120%;
+  right: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  width: 30rem;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+}
+
+.theme-light .header .flex .profile.active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.theme-light .header .flex .profile img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.theme-light .header .flex .profile h3 {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.theme-light .header .flex .profile span {
+  color: #888;
+  font-size: 1.6rem;
+}
+
+/* Dark Mode Color */
+.theme-dark .header {
+  background-color: #222;
+  border-bottom: 0.1rem solid rbga(255, 255, 255, 0.2);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.theme-dark .header .flex {
+  padding: 1.5rem 2rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.theme-dark .header .flex .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.theme-dark .header .flex .search-form {
+  width: 50rem;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .theme-dark .header .flex .search-form {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    width: auto;
+    border-top: 0.1rem solid rbga(255, 255, 255, 0.2);
+    border-bottom: 0.1rem solid rbga(255, 255, 255, 0.2);
+    background-color: #222;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+}
+
+@media (max-width: 768px) {
+  .theme-dark .header .flex .search-form.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.theme-dark .header .flex .search-form input {
+  width: 100%;
+  background: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.theme-dark .header .flex .search-form button {
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+}
+
+.theme-dark .header .flex .icons div {
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  height: 4.5rem;
+  cursor: pointer;
+  width: 4.5rem;
+  line-height: 4.4rem;
+  background-color: #333;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+.theme-dark .header .flex .icons div:hover{
+  background-color: #fff;
+  color: #222;
+}
+
+.theme-dark .header .flex .profile {
+  position: absolute;
+  top: 120%;
+  right: 2rem;
+  background-color: #222;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  width: 30rem;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+}
+
+.theme-dark .header .flex .profile.active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.theme-dark .header .flex .profile img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.theme-dark .header .flex .profile h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.theme-dark .header .flex .profile span {
+  color: #aaa;
+  font-size: 1.6rem;
+}
+
+#search-btn {
+  display: none;
+}
+
+@media (max-width:768px){
+  #search-btn{
+    display: inline-block;
+  }
+}

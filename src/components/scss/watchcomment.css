@@ -1,0 +1,202 @@
+.theme-light .comments .add-comment {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.theme-light .comments .add-comment textarea {
+  border-radius: 0.5rem;
+  padding: 1.4rem;
+  width: 100%;
+  height: 20rem;
+  background-color: #eee;
+  resize: none;
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.theme-light .comments .show-comments {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.theme-light .comments .show-comments .user {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.theme-light .comments .show-comments .user img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.theme-light .comments .show-comments .user h3 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.2rem;
+}
+
+.theme-light .comments .show-comments .user span {
+  color: #888;
+  font-size: 1.5rem;
+}
+
+.theme-light .comments .show-comments .content {
+  margin-bottom: 2rem;
+}
+
+.theme-light .comments .show-comments .content p {
+  font-size: 2rem;
+  color: #2c3e50;
+  padding: 0 1rem;
+  display: inline-block;
+}
+
+.theme-light .comments .show-comments .content span {
+  font-size: 1.7rem;
+  color: #888;
+}
+
+.theme-light .comments .show-comments .content a {
+  color: #8e44ad;
+  font-size: 1.8rem;
+}
+
+.theme-light .comments .show-comments .content a:hover {
+  text-decoration: underline;
+}
+
+.theme-light .comments .show-comments .text {
+  border-radius: 0.5rem;
+  background-color: #eee;
+  padding: 1rem 1.5rem;
+  color: #2c3e50;
+  margin: 0.5rem 0;
+  position: relative;
+  z-index: 0;
+  white-space: pre-line;
+  font-size: 1.8rem;
+}
+
+.theme-light .comments .show-comments .text::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+  height: 1.2rem;
+  width: 2rem;
+  background-color: #eee;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* Dark Mode */
+.theme-dark .comments .add-comment {
+  background-color: #222;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.theme-dark .comments .add-comment textarea {
+  border-radius: 0.5rem;
+  padding: 1.4rem;
+  width: 100%;
+  height: 20rem;
+  background-color: #333;
+  resize: none;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.theme-dark .comments .show-comments {
+  background-color: #222;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.theme-dark .comments .show-comments .user {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.theme-dark .comments .show-comments .user img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.theme-dark .comments .show-comments .user h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.theme-dark .comments .show-comments .user span {
+  color: #aaa;
+  font-size: 1.5rem;
+}
+
+.theme-dark .comments .show-comments .content {
+  margin-bottom: 2rem;
+}
+
+.theme-dark .comments .show-comments .content p {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0 1rem;
+  display: inline-block;
+}
+
+.theme-dark .comments .show-comments .content span {
+  font-size: 1.7rem;
+  color: #aaa;
+}
+
+.theme-dark .comments .show-comments .content a {
+  color: #8e44ad;
+  font-size: 1.8rem;
+}
+
+.theme-dark .comments .show-comments .content a:hover {
+  text-decoration: underline;
+}
+
+.theme-dark .comments .show-comments .text {
+  border-radius: 0.5rem;
+  background-color: #333;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  margin: 0.5rem 0;
+  position: relative;
+  z-index: 0;
+  white-space: pre-line;
+  font-size: 1.8rem;
+}
+
+.theme-dark .comments .show-comments .text::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+  height: 1.2rem;
+  width: 2rem;
+  background-color: #333;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.order-1 {
+  order: -1;
+}

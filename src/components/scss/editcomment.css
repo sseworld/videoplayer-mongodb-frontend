@@ -1,0 +1,48 @@
+.theme-light .edit-comment form {
+    background-color: #fff; /* 2c3e50 */
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.theme-light .edit-comment form .box {
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: #2c3e50; /* 2c3e50 */
+    background-color: #eee; /* 333 */
+    resize: none;
+    height: 20rem;
+}
+
+.theme-light .edit-comment form .flex{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+/* Dark Mode */
+.theme-dark .edit-comment form {
+    background-color: #222;
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.theme-dark .edit-comment form .box {
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #333;
+    resize: none;
+    height: 20rem;
+}
+
+.theme-dark .edit-comment form .flex{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}

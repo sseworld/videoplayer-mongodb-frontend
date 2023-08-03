@@ -1,0 +1,36 @@
+.theme-light .footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 0.1rem solid rbga(0, 0, 0, 0.2);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  color: #222;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  z-index: 1000;
+}
+
+.theme-light .footer span {
+  color: #8e44ad;
+}
+
+.theme-dark .footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #222;
+  border-top: 0.1rem solid rbga(255, 255, 255, 0.2);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  z-index: 1000;
+}
+/*# sourceMappingURL=footer.css.map */

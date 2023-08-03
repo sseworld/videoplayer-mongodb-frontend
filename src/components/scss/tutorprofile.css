@@ -1,0 +1,100 @@
+.theme-light .tutor-profile .details{
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.theme-light .tutor-profile .details .tutor{
+    margin-bottom: 2rem;
+}
+
+.theme-light .tutor-profile .details .tutor img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+}
+
+.theme-light .tutor-profile .details .tutor h3{
+    font-size: 2rem;
+    color: #2c3e50;
+    margin: 0.5rem 0;
+}
+
+.theme-light .tutor-profile .details .tutor span{
+    font-size: 1.5rem;
+    color: #888;
+}
+
+.theme-light .tutor-profile .details .flex{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.theme-light .tutor-profile .details .flex p{
+    flex: 1 1 25rem;
+    border-radius: .5rem;
+    background-color: #eee;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: #888;
+}
+
+.theme-light .tutor-profile .details .flex p span{
+    color: #8e44ad;
+}
+
+/* Dark Mode  */
+.theme-dark .tutor-profile .details{
+    background-color: #222;
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.theme-dark .tutor-profile .details .tutor{
+    margin-bottom: 2rem;
+}
+
+.theme-dark .tutor-profile .details .tutor img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+}
+
+.theme-dark .tutor-profile .details .tutor h3{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+.theme-dark .tutor-profile .details .tutor span{
+    font-size: 1.5rem;
+    color: #aaa;
+}
+
+.theme-dark .tutor-profile .details .flex{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.theme-dark .tutor-profile .details .flex p{
+    flex: 1 1 25rem;
+    border-radius: .5rem;
+    background-color: #333;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: #aaa;
+}
+
+.theme-dark .tutor-profile .details .flex p span{
+    color: #8e44ad;
+}
